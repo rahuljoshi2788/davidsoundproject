@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+
+
+  .animalimg {
+    display: flexbox;
+    width: 55%;
+    height: auto;
+  }
+  /* .animalimg:hover
+    {
+      -moz-box-shadow: 0 0 10px rgb(204, 204, 204);
+      -webkit-box-shadow: 0 0 10px rgb(204, 204, 204);
+      box-shadow: 0 0 10px rgb(59, 33, 33);
+    } */
+
+    .animalimg:hover
+    {
+      -moz-box-shadow: 0 0 50px rgb(18, 12, 88);
+      -webkit-box-shadow: 0 0 50px rgb(30, 31, 97);
+      box-shadow: 0 0 50px rgba(19, 9, 75, 0.397);
+    }
+
+    .container{
+
+      margin: 30px ;
+  display:inline-flexbox;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+
+    }
+    
+
+    
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
